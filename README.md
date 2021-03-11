@@ -7,7 +7,7 @@ http://127.0.0.1:8000/api/v1/registration/
 Body
 | Key | Value |
 |-:|-:|
-| username | kostya12362 |
+| ###### username | kostya12362 |
 | password | ostapenko123 |
 ```json
 {
