@@ -3,7 +3,7 @@
 Регистрация пользователя
 
 http://127.0.0.1:8000/api/v1/registration/ </br>
-* __POST__ <br/>
+POST <br/>
 Body <br/>
 | Key | Value |
 |-:|-:|
