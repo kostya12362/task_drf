@@ -4,6 +4,7 @@
 
 http://127.0.0.1:8000/api/v1/registration/ </br>
 * POST <br/>
+
 Body <br/>
 
 | Key | Value |
@@ -20,7 +21,9 @@ Body <br/>
 
 http://127.0.0.1:8000/api/v1/login/ <br/>
 * POST <br/>
-#### Body <br/>
+
+Body <br/>
+
 | Key | Value |
 |-:|-:|
 | username | kostya12362 |
@@ -36,7 +39,9 @@ http://127.0.0.1:8000/api/v1/login/ <br/>
 
 http://127.0.0.1:8000/api/v1/event/ <br/>
 * GET <br/>
-#### Headers <br/>
+
+Headers <br/>
+
 | Key | Value |
 |-:|-:|
 | Authorization | Token a161c5b185e18306c6b4034c410449a2487855ea |
@@ -55,12 +60,15 @@ http://127.0.0.1:8000/api/v1/event/ <br/>
 ```
 
 * POST <br/>
-#### Headers <br/>
+
+Headers <br/>
+
 | Key | Value |
 |-:|-:|
 | Authorization | Token a161c5b185e18306c6b4034c410449a2487855ea |
 
-#### Body <br/>
+Body <br/>
+
 | Key | Value | Format |
 |-:|-:|-|
 | event_type | create task | string |
