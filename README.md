@@ -53,6 +53,8 @@ Headers
 
 POST
 http://127.0.0.1:8000/api/v1/event/
-key event_type value create task
-key info value {"task":"1"}
-key timestamp value 2011-09-01 13:20:30
+| Key | Value |
+|-:|-:|
+| event_type | create task |
+| info | {"task":"1"} |
+| timestamp | 2011-09-01 13:20:30 |
