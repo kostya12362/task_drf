@@ -2,7 +2,7 @@
 Базовая документация
 Регистрация пользователя
 
-http://127.0.0.1:8000/api/v1/registration/ </br>
+##### http://127.0.0.1:8000/api/v1/registration/ </br>
 * POST <br/>
 
 Body <br/>
@@ -19,7 +19,7 @@ Body <br/>
 ```
 
 
-http://127.0.0.1:8000/api/v1/login/ <br/>
+##### http://127.0.0.1:8000/api/v1/login/ <br/>
 * POST <br/>
 
 Body <br/>
@@ -37,7 +37,7 @@ Body <br/>
 ```
 
 
-http://127.0.0.1:8000/api/v1/event/ <br/>
+##### http://127.0.0.1:8000/api/v1/event/ <br/>
 * GET <br/>
 
 Headers <br/>
