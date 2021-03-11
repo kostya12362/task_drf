@@ -75,3 +75,13 @@ Body <br/>
 | info | {"task":"1"} | json |
 | timestamp | 2011-09-01 13:20:30 | %Y-%m-%d %H:%M:%S.%f |
 
+```json 
+{
+    "event_type": "create task",
+    "info": {
+        "task": "1"
+    },
+    "timestamp": "2011-09-01 13:20:30.000000"
+}
+```
+
