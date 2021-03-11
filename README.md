@@ -2,12 +2,13 @@
 Базовая документация
 Регистрация пользователя
 
-запрос POST
-http://127.0.0.1:8000/api/v1/registration/
-Body
+запрос POST <br/>
+http://127.0.0.1:8000/api/v1/registration/ </br>
+
+#### Body <br/>
 | Key | Value |
 |-:|-:|
-| ###### username | kostya12362 |
+| username | kostya12362 |
 | password | ostapenko123 |
 ```json
 {
