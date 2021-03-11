@@ -1,18 +1,11 @@
-from django.shortcuts import render
-from rest_framework import viewsets, status
+from rest_framework import viewsets
 from django.contrib.auth.models import User
-from rest_framework.response import Response
 from rest_framework.generics import CreateAPIView
 
 from rest_framework.authentication import TokenAuthentication
-from event.models import EventType, Event
+from event.models import Event
 from event.serializers import EventSerializers, UserSerializers
 from rest_framework import permissions
-
-
-# class EventTypeViewSet(viewsets.ModelViewSet):
-#     queryset = EventType.objects.all()
-#     serializer_class = EventTypeSerializers
 
 
 class EventViewSet(viewsets.ModelViewSet):
@@ -27,14 +20,7 @@ class EventViewSet(viewsets.ModelViewSet):
         return query_set
 
 
-# class UserViewSet(viewsets.ModelViewSet):
-#     queryset = User.objects.all()
-#     serializer_class = UserSerializers
-#     permission_classes = (permissions.AllowAny, )
-
 class CreateUserView(CreateAPIView):
     model = User
     permission_classes = (permissions.AllowAny,)
     serializer_class = UserSerializers
-
-

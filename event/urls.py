@@ -5,10 +5,7 @@ from rest_framework.authtoken.views import obtain_auth_token
 
 
 router = routers.DefaultRouter()
-# router.register('sigin', CreateUserView)
-# router.register('login', obtain_auth_token)
 router.register('event', EventViewSet)
-
 
 urlpatterns = [
     path('', include(router.urls)),

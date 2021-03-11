@@ -4,12 +4,6 @@ from django.contrib.auth.models import User
 from rest_framework.authtoken.models import Token
 
 
-# class EventTypeSerializers(serializers.ModelSerializer):
-#     class Meta:
-#         model = EventType
-#         fields = ('id', 'name')
-
-
 class EventSerializers(serializers.ModelSerializer):
     event_type = serializers.CharField(source='event_type.name')
 
