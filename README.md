@@ -1,4 +1,29 @@
 # task_drf
+
+## Installation
+```bash
+$ pip install virtualenv
+```
+
+The next step is to create a directory in which our folder will be in the environment
+```linux
+$ mkdir dev_test && cd dev_test
+$ git clone https://github.com/kostya12362/task_drf.git
+$ cd task_drf
+$ python3 -m venv venv
+```
+We activate the environment and run project
+```linux
+$ source venv/bin/activate
+$ pip install -r requirements.txt
+$ python manage.py runserver 127.0.0.1:8000
+```
+> if you want see test
+```linux
+$ coverage run --omit=*/venv/*,*/migrations/*,*/event/tests/* manage.py test event
+$ coverage report
+```
+
 Базовая документация
 Регистрация пользователя
 
