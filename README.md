@@ -68,7 +68,7 @@ Headers <br/>
 | Authorization | Token a161c5b185e18306c6b4034c410449a2487855ea |
 
 Body <br/>
-⋅⋅⋅If event_type does not exist in the database, a new instance is created in the EventType model
+    If event_type does not exist in the database, a new instance is created in the EventType model
 
 | Key | Value | Format |
 |-:|-:|-|
