@@ -5,7 +5,7 @@
 запрос POST <br/>
 http://127.0.0.1:8000/api/v1/registration/ </br>
 
-#### Body <br/>
+###### Body <br/>
 | Key | Value |
 |-:|-:|
 | username | kostya12362 |
