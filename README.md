@@ -4,7 +4,7 @@
 
 http://127.0.0.1:8000/api/v1/registration/ </br>
 * __POST__ <br/>
-⋅⋅⋅ Body <br/>
+⋅⋅⋅Body <br/>
 | Key | Value |
 |-:|-:|
 | username | kostya12362 |
