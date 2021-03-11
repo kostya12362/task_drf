@@ -69,7 +69,7 @@ Headers <br/>
 
 Body <br/>
 
-> If event_type does not exist in the database, a new instance is created in the EventType model
+> If __event_type__ does not exist in the database, a new instance is created in the __EventType__ model
 
 | Key | Value | Format |
 |-:|-:|-|
