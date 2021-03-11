@@ -4,11 +4,11 @@
 
 http://127.0.0.1:8000/api/v1/registration/ </br>
 * POST <br/>
-#### Body <br/>
-⋅⋅⋅| Key | Value |
-⋅⋅⋅|-:|-:|
-⋅⋅⋅| username | kostya12362 |
-⋅⋅⋅| password | ostapenko123 |
+**#### Body <br/>
+| Key | Value |
+|-:|-:|
+| username | kostya12362 |
+| password | ostapenko123 |
 ```json
 {
     "id": 2,
@@ -19,7 +19,7 @@ http://127.0.0.1:8000/api/v1/registration/ </br>
 
 http://127.0.0.1:8000/api/v1/login/ <br/>
 * POST
-#### Body <br/>
+**#### Body <br/>
 | Key | Value |
 |-:|-:|
 | username | kostya12362 |
