@@ -3,7 +3,7 @@
 Регистрация пользователя
 
 http://127.0.0.1:8000/api/v1/registration/ </br>
-⋅⋅* POST <br/>
+* POST <br/>
 #### Body <br/>
 | Key | Value |
 |-:|-:|
@@ -18,7 +18,7 @@ http://127.0.0.1:8000/api/v1/registration/ </br>
 
 
 http://127.0.0.1:8000/api/v1/login/ <br/>
-⋅⋅* POST
+* POST
 #### Body <br/>
 | Key | Value |
 |-:|-:|
@@ -34,7 +34,7 @@ http://127.0.0.1:8000/api/v1/login/ <br/>
 
 
 http://127.0.0.1:8000/api/v1/event/ <br/>
-⋅⋅*GET <br/>
+* GET <br/>
 #### Headers <br/>
 | Key | Value |
 |-:|-:|
@@ -53,7 +53,7 @@ http://127.0.0.1:8000/api/v1/event/ <br/>
 ]
 ```
 
-⋅⋅*POST <br/>
+* POST <br/>
 #### Headers <br/>
 | Key | Value |
 |-:|-:|
