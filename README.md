@@ -9,17 +9,20 @@ Body
 |-:|-:|
 | username | kostya12362 |
 | password | ostapenko123 |
-
+```json
 {
     "id": 2,
     "username": "kostya12362"
 }
+```
 
 POST
 http://127.0.0.1:8000/api/v1/login/
 Body
-Key: username Value: kostya12362
-Key: password Value: ostapenko123
+| Key | Value |
+|-:|-:|
+| username | kostya12362 |
+| password | ostapenko123 |
 
 Ответ
 {
