@@ -45,7 +45,7 @@ Body <br/>
     "username": "kostya12362"
 }
 ```
-
+---
 
 ##### http://127.0.0.1:8000/api/v1/login/ <br/>
 * POST <br/>
@@ -63,7 +63,7 @@ Body <br/>
     "token": "a161c5b185e18306c6b4034c410449a2487855ea"
 }
 ```
-
+---
 
 ##### http://127.0.0.1:8000/api/v1/event/ <br/>
 * GET <br/>
