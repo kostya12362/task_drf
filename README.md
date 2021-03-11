@@ -24,8 +24,8 @@ $ coverage run --omit=*/venv/*,*/migrations/*,*/event/tests/* manage.py test eve
 $ coverage report
 ```
 
-Базовая документация
-Регистрация пользователя
+Basic api documentation
+  User registration
 
 ##### http://127.0.0.1:8000/api/v1/registration/ </br>
 * POST <br/>
