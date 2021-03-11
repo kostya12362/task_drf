@@ -39,6 +39,8 @@ Body <br/>
 |-:|-:|
 | username | kostya12362 |
 | password | ostapenko123 |
+
+Response
 ```json
 {
     "id": 2,
@@ -57,7 +59,7 @@ Body <br/>
 | username | kostya12362 |
 | password | ostapenko123 |
 
-Ответ
+Response
 ```json
 {
     "token": "a161c5b185e18306c6b4034c410449a2487855ea"
@@ -74,7 +76,7 @@ Headers <br/>
 |-:|-:|
 | Authorization | Token a161c5b185e18306c6b4034c410449a2487855ea |
 
-Ответ <br/>
+Response <br/>
 ```json
 [
     {
@@ -105,6 +107,7 @@ Body <br/>
 | info | {"task":"1"} | json |
 | timestamp | 2011-09-01 13:20:30 | %Y-%m-%d %H:%M:%S.%f |
 
+Response
 ```json 
 {
     "event_type": "create task",
