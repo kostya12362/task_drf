@@ -105,7 +105,7 @@ Body <br/>
 |-:|-:|-|
 | event_type | create task | string |
 | info | {"task":"1"} | json |
-| timestamp | 2011-09-01 13:20:30 | %Y-%m-%d %H:%M:%S.%f |
+| timestamp | 2011-09-01 13:20:30 | %Y-%m-%d %H:%M:%S |
 
 Response
 ```json 
