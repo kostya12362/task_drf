@@ -17,6 +17,8 @@ We activate the environment and run project
 $ source venv/bin/activate
 $ pip install -r requirements.txt
 $ python manage.py runserver 127.0.0.1:8000
+$ python manage.py makemigrations
+$ python manage.py migrate
 ```
 > if you want see test
 ```linux
